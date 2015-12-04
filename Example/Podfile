@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'DZImageView_Example', :exclusive => true do
+  pod "DZImageView", :path => "../"
+end
+
+target 'DZImageView_Tests', :exclusive => true do
+  pod "DZImageView", :path => "../"
+
+  
+end
