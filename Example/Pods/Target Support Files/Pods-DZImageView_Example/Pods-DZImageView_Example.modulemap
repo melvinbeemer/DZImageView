@@ -1,0 +1,6 @@
+framework module Pods_DZImageView_Example {
+  umbrella header "Pods-DZImageView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

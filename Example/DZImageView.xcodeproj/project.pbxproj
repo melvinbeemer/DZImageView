@@ -15,6 +15,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		A245D3F97AB5D6240A104143 /* Pods_DZImageView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52BFB06DD5BF029821BA56A8 /* Pods_DZImageView_Tests.framework */; };
+		B02297191C1129D7002D26F0 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B02297181C1129D7002D26F0 /* 1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		6842D4B5AB505EACFE1CFBE8 /* Pods-DZImageView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DZImageView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DZImageView_Tests/Pods-DZImageView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8F2AD9D68C0BBEE590BD030A /* DZImageView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DZImageView.podspec; path = ../DZImageView.podspec; sourceTree = "<group>"; };
 		A6149233CB1E6AEBA6FF1DA1 /* Pods-DZImageView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DZImageView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DZImageView_Tests/Pods-DZImageView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B02297181C1129D7002D26F0 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 		C90A9B227C4E240BF7B3BB58 /* Pods-DZImageView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DZImageView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DZImageView_Example/Pods-DZImageView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E1B9C0D5E36C47EBF57AF590 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -109,6 +111,7 @@
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+				B02297181C1129D7002D26F0 /* 1.jpg */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
 			name = "Example for DZImageView";
@@ -209,6 +212,7 @@
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
@@ -246,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				B02297191C1129D7002D26F0 /* 1.jpg in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);

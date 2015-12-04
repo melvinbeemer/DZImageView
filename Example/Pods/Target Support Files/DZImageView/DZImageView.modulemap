@@ -1,0 +1,6 @@
+framework module DZImageView {
+  umbrella header "DZImageView-umbrella.h"
+
+  export *
+  module * { export * }
+}

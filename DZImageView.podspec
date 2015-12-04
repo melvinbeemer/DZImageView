@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "DZImageView"
   s.version          = "0.1.0"
-  s.summary          = "A short description of DZImageView."
+  s.summary          = "Image View with content mode animations."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,13 +17,14 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
+DZImageView is a UIImageView extension to make changing content mode animatable.
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/DZImageView"
+  s.homepage         = "https://github.com/fortyfox/DZImageView"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Melvin Beemer" => "melvin.beemer@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/DZImageView.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/fortyfox/DZImageView.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '8.0'

@@ -1,0 +1,14 @@
+PODS:
+  - DZImageView (0.1.0)
+
+DEPENDENCIES:
+  - DZImageView (from `../`)
+
+EXTERNAL SOURCES:
+  DZImageView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DZImageView: 52a5e7d994fb8e3d973de0a91d6ce741903973ea
+
+COCOAPODS: 0.39.0
