@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/cocoapods/l/DZImageView.svg?style=flat)](http://cocoapods.org/pods/DZImageView)
 [![Platform](https://img.shields.io/cocoapods/p/DZImageView.svg?style=flat)](http://cocoapods.org/pods/DZImageView)
 
-Image View with content mode animations.
+Image View with content mode animations. Inspired by the Objective-C version [VICMAImageView](https://github.com/vitoziv/VICMAImageView).
 
 ![DZImageView Exmaple](https://i.imgur.com/tQdH10N.gif)
 
@@ -37,10 +37,6 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod "DZImageView"
 ```
-
-## Author
-
-Melvin Beemer, melvin.beemer@gmail.com
 
 ## License
 
