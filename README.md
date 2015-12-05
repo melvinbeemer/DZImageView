@@ -21,7 +21,9 @@ self.view.addSubview(imageView)
 ### Animating
 ```swift
 imageView.animationDuration = 0.3 // Optional, Default: 0.3
-imageView.animateImageViewContentMode(.ScaleAspectFit)
+imageView.animateImageViewContentModeTo(.ScaleAspectFit) // Animate content mode
+imageView.animateImageViewFrameTo(CGRectMake(0, 0, 300, 300)) // Animate frame
+imageView.animateImageViewTo(.ScaleAspectFit, frame: CGRectMake(0, 0, 300, 300)) // Animate both content mode and frame
 ```
 
 ## Requirements
