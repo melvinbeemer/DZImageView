@@ -186,7 +186,7 @@ public class DZImageView: UIView {
 
 public extension DZImageView {
     
-    public func animateImageView(contentMode: UIViewContentMode, frame: CGRect) {
+    public func animateImageViewTo(contentMode: UIViewContentMode, frame: CGRect) {
         UIView.animateWithDuration(animationDuration, delay: 0, usingSpringWithDamping: 0.9, initialSpringVelocity: 1, options: .CurveEaseInOut, animations: { () -> Void in
             self.frame = frame
             self.contentMode = contentMode
@@ -194,14 +194,14 @@ public extension DZImageView {
             }, completion: nil)
     }
     
-    public func animateImageViewContentMode(contentMode: UIViewContentMode) {
+    public func animateImageViewContentModeTo(contentMode: UIViewContentMode) {
         UIView.animateWithDuration(animationDuration, delay: 0, usingSpringWithDamping: 0.9, initialSpringVelocity: 1, options: .CurveEaseInOut, animations: { () -> Void in
             self.contentMode = contentMode
             self.updateView()
             }, completion: nil)
     }
     
-    public func animateImageViewFrame(frame: CGRect) {
+    public func animateImageViewFrameTo(frame: CGRect) {
         UIView.animateWithDuration(animationDuration, delay: 0, usingSpringWithDamping: 0.9, initialSpringVelocity: 1, options: .CurveEaseInOut, animations: { () -> Void in
             self.frame = frame
             self.updateView()

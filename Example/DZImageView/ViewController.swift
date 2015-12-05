@@ -29,39 +29,39 @@ class ViewController: UIViewController {
     }
     
     @IBAction func updateToAspectFitButtonTouched(sender: AnyObject) {
-        imageView.animateImageViewContentMode(.ScaleAspectFit)
+        imageView.animateImageViewContentModeTo(.ScaleAspectFit)
     }
     
     @IBAction func updateToAspectFillButtonTouched(sender: AnyObject) {
-        imageView.animateImageViewContentMode(.ScaleAspectFill)
+        imageView.animateImageViewContentModeTo(.ScaleAspectFill)
     }
     
     @IBAction func updateToScaleToFillButtonTouched(sender: AnyObject) {
-        imageView.animateImageViewContentMode(.ScaleToFill)
+        imageView.animateImageViewContentModeTo(.ScaleToFill)
     }
     
     @IBAction func updateToRedrawButtonTouched(sender: AnyObject) {
-        imageView.animateImageViewContentMode(.Redraw)
+        imageView.animateImageViewContentModeTo(.Redraw)
     }
     
     @IBAction func updateToCenterButtonTouched(sender: AnyObject) {
-        imageView.animateImageViewContentMode(.Center)
+        imageView.animateImageViewContentModeTo(.Center)
     }
     
     @IBAction func updateToTopButtonTouched(sender: AnyObject) {
-        imageView.animateImageViewContentMode(.Top)
+        imageView.animateImageViewContentModeTo(.Top)
     }
     
     @IBAction func updateToBottomButtonTouched(sender: AnyObject) {
-        imageView.animateImageViewContentMode(.Bottom)
+        imageView.animateImageViewContentModeTo(.Bottom)
     }
     
     @IBAction func updateToLeftButtonTouched(sender: AnyObject) {
-        imageView.animateImageViewContentMode(.Left)
+        imageView.animateImageViewContentModeTo(.Left)
     }
     
     @IBAction func updateToRightButtonTouched(sender: AnyObject) {
-        imageView.animateImageViewContentMode(.Right)
+        imageView.animateImageViewContentModeTo(.Right)
     }
 }
 

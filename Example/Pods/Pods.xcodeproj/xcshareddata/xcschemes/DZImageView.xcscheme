@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'D8898F769D5EE8CFF8F3410B'
+               BlueprintIdentifier = '6BD6969D25950BDC295AC97A'
                BlueprintName = 'DZImageView'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'DZImageView.framework'>
