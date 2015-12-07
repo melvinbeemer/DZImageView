@@ -42,4 +42,4 @@ pod "DZImageView"
 
 ## License
 
-DZImageView is available under the MIT license. See the LICENSE file for more info.
+DZImageView is available under the MIT license. See the [LICENSE file](https://github.com/Fortyfox/DZImageView/blob/master/LICENSE) for more info.
