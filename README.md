@@ -40,6 +40,12 @@ it, simply add the following line to your Podfile:
 pod "DZImageView"
 ```
 
+To install DZImageView with Carthage add the following line to your `cartfile`
+
+```
+github "Fortyfox/DZImageView" ~> 0.1.1
+```
+
 ## License
 
 DZImageView is available under the MIT license. See the [LICENSE file](https://github.com/Fortyfox/DZImageView/blob/master/LICENSE) for more info.
